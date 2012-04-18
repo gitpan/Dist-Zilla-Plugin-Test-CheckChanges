@@ -1,5 +1,8 @@
 Revision history for Perl extension Dist-Zilla-Plugin-Test-CheckChanges
 
+2.000001  2012-04-18
+    - fixed POD more [Olivier Mengué]
+
 v2.0.0    2011-08-27
     - fixed POD
     - Renamed to Dist::Zilla::Plugin::Test::CheckChanges

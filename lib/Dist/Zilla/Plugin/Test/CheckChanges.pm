@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::Test::CheckChanges;
 # ABSTRACT: Release tests for checking changes
-our $VERSION = 'v2.0.0'; # VERSION
+our $VERSION = '2.000001'; # VERSION
 use Moose;
 
 extends 'Dist::Zilla::Plugin::InlineFiles';
@@ -24,13 +24,13 @@ Dist::Zilla::Plugin::Test::CheckChanges - Release tests for checking changes
 
 =head1 VERSION
 
-version v2.0.0
+version 2.000001
 
 =head1 SYNOPSIS
 
 In C<dist.ini>:
 
-    [CheckChangesTests]
+    [Test::CheckChanges]
 
 =head1 DESCRIPTION
 
@@ -44,14 +44,11 @@ __END__
 
 =head1 AVAILABILITY
 
+The project homepage is L<http://metacpan.org/release/Dist-Zilla-Plugin-Test-CheckChanges/>.
+
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
-site near you, or see L<http://search.cpan.org/dist/Dist-Zilla-Plugin-Test-CheckChanges/>.
-
-The development version lives at L<http://github.com/doherty/Dist-Zilla-Plugin-Test-CheckChanges>
-and may be cloned from L<git://github.com/doherty/Dist-Zilla-Plugin-Test-CheckChanges.git>.
-Instead of sending patches, please fork this project using the standard
-git and github infrastructure.
+site near you, or see L<https://metacpan.org/module/Dist::Zilla::Plugin::Test::CheckChanges/>.
 
 =head1 SOURCE
 
@@ -60,10 +57,8 @@ and may be cloned from L<git://github.com/doherty/Dist-Zilla-Plugin-Test-CheckCh
 
 =head1 BUGS AND LIMITATIONS
 
-No bugs have been reported.
-
-Please report any bugs or feature requests through the web interface at
-L<https://github.com/doherty/Dist-Zilla-Plugin-Test-CheckChanges/issues>.
+You can make new bug reports, and view existing ones, through the
+web interface at L<https://github.com/doherty/Dist-Zilla-Plugin-Test-CheckChanges/issues>.
 
 =head1 AUTHORS
 
