@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::CheckChangesTests;
 # ABSTRACT: (DEPRECATED) Release tests for checking changes
-our $VERSION = '2.000002'; # VERSION
+our $VERSION = '2.000003'; # VERSION
 use Moose;
 use version 0.77;
 
@@ -31,7 +31,7 @@ Dist::Zilla::Plugin::CheckChangesTests - (DEPRECATED) Release tests for checking
 
 =head1 VERSION
 
-version 2.000002
+version 2.000003
 
 =head1 SYNOPSIS
 

@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::Test::CheckChanges;
 # ABSTRACT: Release tests for checking changes
-our $VERSION = '2.000002'; # VERSION
+our $VERSION = '2.000003'; # VERSION
 use Moose;
 
 extends 'Dist::Zilla::Plugin::InlineFiles';
@@ -22,7 +22,7 @@ Dist::Zilla::Plugin::Test::CheckChanges - Release tests for checking changes
 
 =head1 VERSION
 
-version 2.000002
+version 2.000003
 
 =head1 SYNOPSIS
 
